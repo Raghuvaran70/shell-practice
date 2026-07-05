@@ -21,5 +21,5 @@ unset array[2]  # Removes the element at index 2 (cherry)
 echo "Looping through the array:"
 for fruit in "${array[@]}"; 
 do
-    echo "$fruit" \
+    echo "$fruit" 
 done
